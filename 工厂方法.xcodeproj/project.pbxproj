@@ -13,6 +13,21 @@
 		4D2C16B81E8CFD000026C59A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2C16B61E8CFD000026C59A /* Main.storyboard */; };
 		4D2C16BA1E8CFD000026C59A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D2C16B91E8CFD000026C59A /* Assets.xcassets */; };
 		4D2C16BD1E8CFD000026C59A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2C16BB1E8CFD000026C59A /* LaunchScreen.storyboard */; };
+		4D2C16C81E8CFD8E0026C59A /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C16C71E8CFD8E0026C59A /* BackgroundView.m */; };
+		4D2C16CB1E8CFDA40026C59A /* LightBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C16CA1E8CFDA40026C59A /* LightBackgroundView.m */; };
+		4D2C16CE1E8CFDE70026C59A /* DarkBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C16CD1E8CFDE70026C59A /* DarkBackgroundView.m */; };
+		4D2C16D11E8D00870026C59A /* BackgroundViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C16D01E8D00870026C59A /* BackgroundViewGenerator.m */; };
+		4D2C16D41E8D025A0026C59A /* LightBackgroundViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C16D31E8D025A0026C59A /* LightBackgroundViewGenerator.m */; };
+		4D2C16D71E8D03210026C59A /* DarkBackgroundViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C16D61E8D03210026C59A /* DarkBackgroundViewGenerator.m */; };
+		4D2C16DF1E8DF7D10026C59A /* BrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C16DE1E8DF7D10026C59A /* BrandingFactory.m */; };
+		4D2C16E41E8DF9FF0026C59A /* AcmeBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C16E31E8DF9FF0026C59A /* AcmeBrandingFactory.m */; };
+		4D2C16EA1E8DFAB40026C59A /* AcmeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C16E91E8DFAB40026C59A /* AcmeView.m */; };
+		4D2C16ED1E8DFAC80026C59A /* AcmeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C16EC1E8DFAC80026C59A /* AcmeButton.m */; };
+		4D2C16F01E8DFADC0026C59A /* AcmeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C16EF1E8DFADC0026C59A /* AcmeLabel.m */; };
+		4D2C16F31E8DFAF20026C59A /* SierraLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C16F21E8DFAF20026C59A /* SierraLabel.m */; };
+		4D2C16F61E8DFB000026C59A /* SierraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C16F51E8DFB000026C59A /* SierraButton.m */; };
+		4D2C16F91E8DFB190026C59A /* SierraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C16F81E8DFB190026C59A /* SierraView.m */; };
+		4D2C16FC1E8DFC2E0026C59A /* SierraBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C16FB1E8DFC2E0026C59A /* SierraBrandingFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +41,37 @@
 		4D2C16B91E8CFD000026C59A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D2C16BC1E8CFD000026C59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D2C16BE1E8CFD000026C59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D2C16C61E8CFD8E0026C59A /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
+		4D2C16C71E8CFD8E0026C59A /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
+		4D2C16C91E8CFDA40026C59A /* LightBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightBackgroundView.h; sourceTree = "<group>"; };
+		4D2C16CA1E8CFDA40026C59A /* LightBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightBackgroundView.m; sourceTree = "<group>"; };
+		4D2C16CC1E8CFDE70026C59A /* DarkBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarkBackgroundView.h; sourceTree = "<group>"; };
+		4D2C16CD1E8CFDE70026C59A /* DarkBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DarkBackgroundView.m; sourceTree = "<group>"; };
+		4D2C16CF1E8D00870026C59A /* BackgroundViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundViewGenerator.h; sourceTree = "<group>"; };
+		4D2C16D01E8D00870026C59A /* BackgroundViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundViewGenerator.m; sourceTree = "<group>"; };
+		4D2C16D21E8D025A0026C59A /* LightBackgroundViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightBackgroundViewGenerator.h; sourceTree = "<group>"; };
+		4D2C16D31E8D025A0026C59A /* LightBackgroundViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightBackgroundViewGenerator.m; sourceTree = "<group>"; };
+		4D2C16D51E8D03210026C59A /* DarkBackgroundViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarkBackgroundViewGenerator.h; sourceTree = "<group>"; };
+		4D2C16D61E8D03210026C59A /* DarkBackgroundViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DarkBackgroundViewGenerator.m; sourceTree = "<group>"; };
+		4D2C16DD1E8DF7D10026C59A /* BrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandingFactory.h; sourceTree = "<group>"; };
+		4D2C16DE1E8DF7D10026C59A /* BrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandingFactory.m; sourceTree = "<group>"; };
+		4D2C16E21E8DF9FF0026C59A /* AcmeBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeBrandingFactory.h; sourceTree = "<group>"; };
+		4D2C16E31E8DF9FF0026C59A /* AcmeBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeBrandingFactory.m; sourceTree = "<group>"; };
+		4D2C16E81E8DFAB40026C59A /* AcmeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeView.h; sourceTree = "<group>"; };
+		4D2C16E91E8DFAB40026C59A /* AcmeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeView.m; sourceTree = "<group>"; };
+		4D2C16EB1E8DFAC80026C59A /* AcmeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeButton.h; sourceTree = "<group>"; };
+		4D2C16EC1E8DFAC80026C59A /* AcmeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeButton.m; sourceTree = "<group>"; };
+		4D2C16EE1E8DFADC0026C59A /* AcmeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeLabel.h; sourceTree = "<group>"; };
+		4D2C16EF1E8DFADC0026C59A /* AcmeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeLabel.m; sourceTree = "<group>"; };
+		4D2C16F11E8DFAF20026C59A /* SierraLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraLabel.h; sourceTree = "<group>"; };
+		4D2C16F21E8DFAF20026C59A /* SierraLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraLabel.m; sourceTree = "<group>"; };
+		4D2C16F41E8DFB000026C59A /* SierraButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraButton.h; sourceTree = "<group>"; };
+		4D2C16F51E8DFB000026C59A /* SierraButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraButton.m; sourceTree = "<group>"; };
+		4D2C16F71E8DFB190026C59A /* SierraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraView.h; sourceTree = "<group>"; };
+		4D2C16F81E8DFB190026C59A /* SierraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraView.m; sourceTree = "<group>"; };
+		4D2C16FA1E8DFC2E0026C59A /* SierraBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraBrandingFactory.h; sourceTree = "<group>"; };
+		4D2C16FB1E8DFC2E0026C59A /* SierraBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraBrandingFactory.m; sourceTree = "<group>"; };
+		4D2C16FD1E8E035C0026C59A /* BrandingFactoryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandingFactoryProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +108,10 @@
 				4D2C16B11E8CFD000026C59A /* AppDelegate.m */,
 				4D2C16B31E8CFD000026C59A /* ViewController.h */,
 				4D2C16B41E8CFD000026C59A /* ViewController.m */,
-				4D2C16B61E8CFD000026C59A /* Main.storyboard */,
-				4D2C16B91E8CFD000026C59A /* Assets.xcassets */,
-				4D2C16BB1E8CFD000026C59A /* LaunchScreen.storyboard */,
-				4D2C16BE1E8CFD000026C59A /* Info.plist */,
+				4D2C16C51E8CFD570026C59A /* View */,
+				4D2C16C41E8CFD350026C59A /* FactoryMethod */,
+				4D2C16E51E8DFA920026C59A /* BrandingProducts */,
+				4D2C16D91E8DF6670026C59A /* AbstractFactory */,
 				4D2C16AD1E8CFD000026C59A /* Supporting Files */,
 			);
 			path = "工厂方法";
@@ -74,9 +120,104 @@
 		4D2C16AD1E8CFD000026C59A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4D2C16B61E8CFD000026C59A /* Main.storyboard */,
+				4D2C16B91E8CFD000026C59A /* Assets.xcassets */,
+				4D2C16BB1E8CFD000026C59A /* LaunchScreen.storyboard */,
+				4D2C16BE1E8CFD000026C59A /* Info.plist */,
 				4D2C16AE1E8CFD000026C59A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D2C16C41E8CFD350026C59A /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				4D2C16CF1E8D00870026C59A /* BackgroundViewGenerator.h */,
+				4D2C16D01E8D00870026C59A /* BackgroundViewGenerator.m */,
+				4D2C16D21E8D025A0026C59A /* LightBackgroundViewGenerator.h */,
+				4D2C16D31E8D025A0026C59A /* LightBackgroundViewGenerator.m */,
+				4D2C16D61E8D03210026C59A /* DarkBackgroundViewGenerator.m */,
+				4D2C16D51E8D03210026C59A /* DarkBackgroundViewGenerator.h */,
+			);
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		4D2C16C51E8CFD570026C59A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D2C16C61E8CFD8E0026C59A /* BackgroundView.h */,
+				4D2C16C71E8CFD8E0026C59A /* BackgroundView.m */,
+				4D2C16C91E8CFDA40026C59A /* LightBackgroundView.h */,
+				4D2C16CA1E8CFDA40026C59A /* LightBackgroundView.m */,
+				4D2C16CC1E8CFDE70026C59A /* DarkBackgroundView.h */,
+				4D2C16CD1E8CFDE70026C59A /* DarkBackgroundView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D2C16D91E8DF6670026C59A /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				4D2C16FD1E8E035C0026C59A /* BrandingFactoryProtocol.h */,
+				4D2C16DD1E8DF7D10026C59A /* BrandingFactory.h */,
+				4D2C16DE1E8DF7D10026C59A /* BrandingFactory.m */,
+				4D2C16E01E8DF9E40026C59A /* Acme */,
+				4D2C16E11E8DF9E40026C59A /* Sierra */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		4D2C16E01E8DF9E40026C59A /* Acme */ = {
+			isa = PBXGroup;
+			children = (
+				4D2C16E21E8DF9FF0026C59A /* AcmeBrandingFactory.h */,
+				4D2C16E31E8DF9FF0026C59A /* AcmeBrandingFactory.m */,
+			);
+			path = Acme;
+			sourceTree = "<group>";
+		};
+		4D2C16E11E8DF9E40026C59A /* Sierra */ = {
+			isa = PBXGroup;
+			children = (
+				4D2C16FA1E8DFC2E0026C59A /* SierraBrandingFactory.h */,
+				4D2C16FB1E8DFC2E0026C59A /* SierraBrandingFactory.m */,
+			);
+			path = Sierra;
+			sourceTree = "<group>";
+		};
+		4D2C16E51E8DFA920026C59A /* BrandingProducts */ = {
+			isa = PBXGroup;
+			children = (
+				4D2C16E61E8DFA920026C59A /* Acme */,
+				4D2C16E71E8DFA920026C59A /* Sierra */,
+			);
+			path = BrandingProducts;
+			sourceTree = "<group>";
+		};
+		4D2C16E61E8DFA920026C59A /* Acme */ = {
+			isa = PBXGroup;
+			children = (
+				4D2C16E81E8DFAB40026C59A /* AcmeView.h */,
+				4D2C16E91E8DFAB40026C59A /* AcmeView.m */,
+				4D2C16EB1E8DFAC80026C59A /* AcmeButton.h */,
+				4D2C16EC1E8DFAC80026C59A /* AcmeButton.m */,
+				4D2C16EE1E8DFADC0026C59A /* AcmeLabel.h */,
+				4D2C16EF1E8DFADC0026C59A /* AcmeLabel.m */,
+			);
+			path = Acme;
+			sourceTree = "<group>";
+		};
+		4D2C16E71E8DFA920026C59A /* Sierra */ = {
+			isa = PBXGroup;
+			children = (
+				4D2C16F71E8DFB190026C59A /* SierraView.h */,
+				4D2C16F81E8DFB190026C59A /* SierraView.m */,
+				4D2C16F41E8DFB000026C59A /* SierraButton.h */,
+				4D2C16F51E8DFB000026C59A /* SierraButton.m */,
+				4D2C16F11E8DFAF20026C59A /* SierraLabel.h */,
+				4D2C16F21E8DFAF20026C59A /* SierraLabel.m */,
+			);
+			path = Sierra;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +290,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D2C16E41E8DF9FF0026C59A /* AcmeBrandingFactory.m in Sources */,
+				4D2C16ED1E8DFAC80026C59A /* AcmeButton.m in Sources */,
+				4D2C16CB1E8CFDA40026C59A /* LightBackgroundView.m in Sources */,
+				4D2C16EA1E8DFAB40026C59A /* AcmeView.m in Sources */,
+				4D2C16D71E8D03210026C59A /* DarkBackgroundViewGenerator.m in Sources */,
 				4D2C16B51E8CFD000026C59A /* ViewController.m in Sources */,
+				4D2C16F31E8DFAF20026C59A /* SierraLabel.m in Sources */,
 				4D2C16B21E8CFD000026C59A /* AppDelegate.m in Sources */,
+				4D2C16D41E8D025A0026C59A /* LightBackgroundViewGenerator.m in Sources */,
+				4D2C16F61E8DFB000026C59A /* SierraButton.m in Sources */,
+				4D2C16DF1E8DF7D10026C59A /* BrandingFactory.m in Sources */,
+				4D2C16C81E8CFD8E0026C59A /* BackgroundView.m in Sources */,
+				4D2C16F01E8DFADC0026C59A /* AcmeLabel.m in Sources */,
+				4D2C16FC1E8DFC2E0026C59A /* SierraBrandingFactory.m in Sources */,
+				4D2C16CE1E8CFDE70026C59A /* DarkBackgroundView.m in Sources */,
+				4D2C16D11E8D00870026C59A /* BackgroundViewGenerator.m in Sources */,
+				4D2C16F91E8DFB190026C59A /* SierraView.m in Sources */,
 				4D2C16AF1E8CFD000026C59A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +456,7 @@
 				4D2C16C31E8CFD000026C59A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
